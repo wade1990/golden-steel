@@ -1,0 +1,848 @@
+﻿/*
+Theme Name: Golden Steel theme
+Theme URI: 
+Author: David Thanphilom
+Author URI: http://davidtproductions.com/
+Description: The custom WordPress theme for Golden Steel Athletic Association.
+Version: 1.0
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/*------------------------ELEMENTS--------------------------------------*/
+body {
+	font-size: 1em;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #000;
+}
+h1, h2, h3, .golden-steel, a {
+	font-family: franklin;
+}
+h1 {
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+h2 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+h3 {
+	font-size: 1.125em;
+	margin-bottom: 10px;
+}
+p {
+	margin-bottom: 10px;
+}
+a {
+	text-decoration: none;
+	color: #f00;
+}
+a:hover {
+	color: #000;
+}
+address {
+	margin-bottom: 10px;
+}
+a img {
+	border: none;
+}
+img, embed, object, video, iframe {
+	max-width: 100%;
+}
+img {
+	height: auto;
+}
+/*------------------------HEADER--------------------------------------*/
+header {
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+}
+.container {
+	max-width: 970px;
+	margin:auto;
+	padding: 10px;
+	overflow: hidden;
+	background: #fff;
+}
+header ul {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+header li {
+	float: right;
+	margin-left: 10px;
+	list-style-type: none;
+}
+.box470 {
+	width: 470px;
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+}
+.search {
+	border: 1px solid black;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.search input[type=text] {
+	width: 383px;
+	float: left;
+	margin-right: 10px;
+	border: none;
+	font-family: franklin;
+	font-size: 1.5em;
+	padding: 5px 0px 5px 5px;
+}
+.search input[type=image] {
+	float: left;
+}
+.register {
+	overflow: hidden;
+}
+.register a {
+	display: block;
+	background: green;
+	color: #fff;
+	font-family: franklin;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 5px;
+	width: 268px;
+	float: right;
+	border: 1px solid #000;
+}
+.register a:hover {
+	background: #fff;
+	color: green;
+}
+/*------------------------NAV--------------------------------------*/
+nav {
+	width: 100%;
+	background: #000;
+	overflow: hidden;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	text-transform: uppercase;
+}
+nav ul {
+	max-width: 970px;
+	margin:auto;
+	padding: 0px;
+	overflow: hidden;
+	
+}
+nav ul li {
+	float: left;
+	margin-right: 10px;
+	width: 110px;
+	list-style-type: none;
+}
+nav a {
+	color: #fff;
+	font-size: 1.5em;
+	display: block;
+	text-align: center;
+	padding: 10px 5px;
+	font-family: franklin;
+}
+nav a:hover {
+	background: #fff;
+	color: #f00;
+}
+.sub-menu {
+	position: absolute;
+	border: 1px solid #000;
+	display: none;
+	background: #fff;
+	text-transform: none;
+	z-index: 100000;
+	padding-top: 5px;
+}
+.sub-menu li {
+	width: 110px;
+	float: none;
+	margin: 0px;
+}
+.sub-menu a {
+	color: #000;
+	padding: 0px 5px 10px 5px;
+}
+nav li:hover .sub-menu {
+	display: block;
+}
+/*------------------------CONTENT--------------------------------------*/
+section {
+	width: 100%;
+	min-height: 400px;
+	background: #fff;
+	overflow: hidden;
+}
+/*------------------------HOME--------------------------------------*/
+.box630 {
+	width: 630px;
+	float: left;
+	margin-right: 10px;
+}
+.box310 {
+	width: 310px;
+	float: left;
+}
+.box310 h2 a, .box230 h3 a {
+	color: #000;
+}
+.box310 h2 a:hover, .box230 h3 a:hover  {
+	color: #f00;
+}
+.box230 {
+	width: 230px;
+	float: left;
+	margin-right: 10px;
+}
+.box230:last-of-type {
+	margin-right: 0px;
+}
+/*------------------------MAIN--------------------------------------*/
+.box790 {
+	width: 790px;
+	float: left;
+	margin-right: 10px;
+}
+.box150 {
+	width: 150px;
+	float: left;
+	padding-left: 20px;
+}
+/*------------------------PHOTOS--------------------------------------*/
+.photos {
+	overflow: hidden;
+	list-style-type: none;
+}
+.photos li {
+	float: left;
+	margin-right: 10px;
+}
+.photos li a {
+	color: #000;
+}
+.photos li a:hover {
+	color: #f00;
+}
+.photos li:nth-of-type(4n) {
+	margin-right: 0px;
+}
+.photos li:nth-of-type(4n+1) {
+	clear: both;
+}
+.box150 ul {
+	list-style-type: none;
+	border: 1px solid #000;
+}
+.box150 li {
+	
+	text-align: center;
+	
+	border-bottom: 1px solid #fff;
+}
+.box150 li a {
+	padding: 10px 0px 10px 0px;
+	background: #000;
+	color: #fff;
+	display: block;
+}
+.box150 li a:hover {
+	color: #f00;
+	background: #fff;
+}
+/*------------------------BLOG--------------------------------------*/
+article {
+	overflow: hidden;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+time {
+	font-family: franklin;
+}
+.blog {
+	overflow: hidden;
+}
+.blog h2 a {
+	color: #000;
+}
+.blog h2 a:hover {
+	color: #f00;
+}
+.blog img {
+	float: left;
+	margin-right: 10px;
+	width: 150px;
+}
+.next-prev {
+	overflow: hidden;
+	margin-top: 10px;
+	clear: both;
+}
+.next-prev a {
+	width: 150px;
+	float: left;
+	margin-right: 10px;
+}
+/*------------------------SINGLE--------------------------------------*/
+.single {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.single h1 {
+	width: 550px;
+	float: left;
+}
+.single a {
+	width: 110px;
+	float: left;
+	margin-right: 10px;
+}
+/*------------------------CONTACT--------------------------------------*/
+.contact, .contact form {
+	overflow: hidden;
+}
+.contact form label {
+	display: block;
+	font-family: franklin;
+}
+.contact form input {
+	display: block;
+	width: 388px;
+	border: 1px solid #000;
+	padding: 10px 0px;
+	margin-bottom: 10px;
+}
+.contact form textarea {
+	display: block;
+	width: 388px;
+	border: 1px solid #000;
+	margin-bottom: 10px;
+	min-height: 150px;
+	padding: 10px 0px;
+}
+.contact input[type=submit] {
+	width: 148px;
+	text-align: center;
+	font-family: franklin;
+	font-size: 18px;
+	background: #000;
+	color: #fff;
+}
+.contact input[type=submit]:hover {
+	cursor: pointer;
+	background: #f00;
+	color: #000;
+}
+/*------------------------FOOTER--------------------------------------*/
+footer {
+	width: 100%;
+	background: #000;
+	padding: 0px;
+	margin: 0px;
+	color: #fff;
+}
+footer a {
+	color: #fff;
+}
+footer a:hover {
+	color: #f00;
+}
+.footer-container {
+	max-width: 970px;
+	margin:auto;
+	padding: 10px;
+	overflow: hidden;
+	background: #000;
+}
+.footer-menu {
+	text-align: left;
+	margin-top: 10px;
+	
+}
+.footer-menu li {
+	float: left;
+	
+}
+/*------------------------CLASSES--------------------------------------*/
+.margin {
+	margin-right: 10px;
+}
+.clear {
+	clear: both;
+}
+.designer {
+	font-family: euro;
+}
+.golden-steel {
+	text-transform: uppercase;
+}
+.responsive {
+	display: none;
+	font-size: 1.5em;
+}
+.responsive:hover {
+	cursor: pointer;
+}
+.float-right {
+	float: right;
+}
+.float-left {
+	float: left;
+}
+/*------------------------PRINT--------------------------------------*/
+@media print {
+/*------------------------HEADER--------------------------------------*/
+header, header .box470:first-of-type {
+	width: 100%;
+}
+.container {
+	width: 100%;
+	padding: 0px;
+}
+header ul, header .box470:last-of-type {
+	display: none;
+}
+/*------------------------NAV--------------------------------------*/
+nav {
+	display: none;
+}
+/*------------------------CONTENT--------------------------------------*/
+section {
+	width: 100%;
+}
+/*------------------------HOME--------------------------------------*/
+.box630, .box310, .box230 {
+	width: 100%;
+	float: none;
+}
+/*------------------------MAIN--------------------------------------*/
+.box790 {
+	width: 100%;
+	float: none;
+}
+.box150 {
+	display: none;
+}
+/*------------------------PHOTOS--------------------------------------*/
+.photos li {
+	float: none;
+	
+}
+/*------------------------BLOG--------------------------------------*/
+article {
+	border-bottom: none;
+	margin-bottom: 0px;
+	padding-top: 0px;
+}
+
+.next-prev {
+	display: none;
+}
+
+/*------------------------SINGLE--------------------------------------*/
+.single h1 {
+	width: 100%;
+	float: none;
+}
+.single a {
+	display: none;
+}
+/*------------------------CONTACT--------------------------------------*/
+.contact form input {
+	border: none;
+}
+.contact form textarea {
+	border: none;
+}
+.contact input[type=submit] {
+	display: none;
+}
+
+/*------------------------FOOTER--------------------------------------*/
+footer {
+	display: none;
+}
+	
+}
+/*------------------------RESPONSIVE--------------------------------------*/
+@media screen and (max-width: 1024px) {
+/*------------------------HEADER--------------------------------------*/
+.box470 {
+	width: 48.453%; /*470/970 */
+	margin-right: 01.030%; /*10/970 */
+}
+.search input[type=text] {
+	width: 81.489%; /*383/470 */
+	margin-right: 02.127%; /*10/470 */
+	padding-left: 01.305%; /*5/383 */
+}
+.search input[type=image] {
+	width: 14.893%; /*70/470*/
+}
+.register a {
+	padding: 01.865%; /*5/268 */
+	width: 57.021%; /*268/470 */
+}
+/*------------------------NAV--------------------------------------*/
+nav ul li {
+	margin-right: 01.030%; /*10/970 */
+	width: 11.340%; /*110/970*/
+}
+nav a {
+	padding: 10% 5%; /*10/100 5/100*/
+}
+.submenu {
+	width: 11.340%; /*110/970*/
+}
+.submenu li {
+	width: 100%;
+}
+/*------------------------HOME--------------------------------------*/
+.box630 {
+	width: 64.948%; /*630/970*/
+	margin-right: 01.030%; /*10/970 */
+}
+.box310 {
+	width: 31.958%; /*310/970*/
+}
+.box230 {
+	width: 23.711%; /*230/970*/
+	margin-right: 01.030%; /*10/970 */
+}
+.margin {
+	margin-right: 01.030%; /*10/970 */
+}
+/*------------------------MAIN--------------------------------------*/
+.box790 {
+	width: 81.443%; /*790/970*/
+	margin-right: 01.030%; /*10/970 */
+}
+.box150 {
+	width: 15.463%; /*150/970*/
+	padding-left: 02.061%; /*20/970*/
+}
+/*------------------------PHOTOS--------------------------------------*/
+.photos li {
+	width: 24.050%; /*190/790*/
+	margin-right: 01.265%; /*10/790 */
+}
+/*------------------------BLOG--------------------------------------*/
+.blog img {
+	margin-right: 01.265%; /*10/790*/
+}
+.next-prev a {
+	width: 18.987%; /*150/790*/
+	margin-right: 01.265%; /*10/790*/
+}
+
+/*------------------------SINGLE--------------------------------------*/
+.single h1 {
+	width: 69.620%; /*550/790*/
+}
+.single a {
+	width: 13.924%; /*110/790*/
+	margin-right: 01.265%; /*10/790*/
+}
+/*------------------------CONTACT--------------------------------------*/
+.contact input {
+	width: 49.113%; /*388/790*/
+}
+.contact textarea {
+	width: 49.113%; /*388/790*/
+}
+.contact input[type=submit] {
+	width: 18.734%; /*148/790*/
+}
+/*------------------------FOOTER--------------------------------------*/
+.box470 .box230 {
+	width: 48.936%; /*230/470*/
+	margin-right: 02.127%; /*10/470*/
+}
+
+}
+@media screen and (max-width: 800px) {
+/*------------------------NAV--------------------------------------*/
+nav a {
+	font-size: 1.125em;
+}
+/*------------------------PHOTOS--------------------------------------*/
+.photos h3 {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+}
+@media screen and (max-width: 768px) {
+/*------------------------CONTENT--------------------------------------*/
+.box230 {
+	width: 48.453%; /*470/970 */
+	margin-right: 01.030%; /*10/970 */
+}
+}
+@media screen and (max-width: 600px) {
+.responsive {
+	display: block;
+}
+/*------------------------NAV--------------------------------------*/
+nav {
+	display: none;
+}
+nav ul li {
+	float: none;
+	margin-right: 0px;
+	width: 100%;
+	position: relative;
+	padding-left: 10px;
+}
+nav a {
+	text-align: left;
+	padding: 0%;
+}
+.sub-menu {
+	position: relative;
+	left: 0;
+	border: none;
+	text-transform: uppercase;
+	display: block;
+	width: 100%;
+	background: #000;
+}
+.sub-menu li {
+	width: 100%;
+	float: none;
+	margin: 0%;
+	padding-left: 10px;
+}
+.sub-menu a {
+	color: #fff;
+	padding: 0px;
+	display: block;
+}
+/*------------------------HEADER--------------------------------------*/
+header .box470 {
+	width: 100%;
+	margin-right: 0%; 
+}
+.search input[type=text] {
+	width: 85.567%; /*830/970 */
+	margin-right: 01.030%; /*10/970 */
+}
+.search input[type=image] {
+	width: 11.340%; /*110/970*/
+}
+.register a {
+	
+}
+/*------------------------CONTENT--------------------------------------*/
+.box630 {
+	width: 100%; 
+	margin-right: 0%; 
+}
+.box310 {
+	width: 100%; 
+}
+/*------------------------HOME--------------------------------------*/
+.container .box230 {
+	width: 100%;
+}
+/*------------------------MAIN--------------------------------------*/
+.box790 {
+	width: 100%;
+	margin-right: 0%;
+}
+.box150 {
+	width: 100%;
+	padding-left: 10px; 
+}
+
+/*------------------------PHOTOS--------------------------------------*/
+.photos li {
+	width: 29.113%; /*230/790*/
+}
+.photos li:nth-of-type(4n) {
+	margin-right: 01.265%; /*10/790*/
+}
+.photos li:nth-of-type(4n+1) {
+	clear: none;
+}
+.photos li:nth-of-type(3n) {
+	margin-right: 0px;
+}
+.photos li:nth-of-type(3n+1) {
+	clear: both;
+}
+/*------------------------SINGLE--------------------------------------*/
+.single h1 {
+	width: 100%; 
+}
+.single a {
+	width: 18.987%; /*150/790*/
+	margin-right: 01.265%; /*10/790*/
+}
+/*------------------------CONTACT--------------------------------------*/
+.contact form input {
+	width: 90%; 
+}
+.contact form textarea {
+	width: 90%;
+}
+.contact input[type=submit] {
+	width: 30%;  
+}
+/*------------------------FOOTER--------------------------------------*/
+footer .box470 {
+	display: none;
+}
+}
+@media screen and (max-width: 480px) {
+
+
+/*------------------------CONTENT--------------------------------------*/
+.box230 {
+	width: 100%; 
+	margin-right: 0%;
+}
+/*------------------------MAIN--------------------------------------*/
+.box150 {
+	/*border-top: 1px solid #000;*/
+}
+
+/*------------------------PHOTOS--------------------------------------*/
+.photos li {
+	width: 49.367%; /*390/790*/
+}
+.photos li:nth-of-type(n+1) {
+	clear: none;
+}
+.photos li:nth-of-type(2n) {
+	margin-right: 0px;
+}
+.photos li:nth-of-type(2n+1) {
+	clear: both;
+	margin-right: 01.265%; /*10/790 */;
+}
+
+}
+@media screen and (max-width: 320px) {
+.results {
+	font-size: 1.5em;
+}
+/*------------------------HEADER--------------------------------------*/
+.search input[type=text] {
+	width: 81.443%; /*790/970 */
+	margin-right: 01.030%; /*10/970 */
+	font-size: 1em;
+}
+.search input[type=image] {
+	width: 15.463%; /*150/970*/
+}
+/*------------------------BLOG--------------------------------------*/
+article {
+	border-bottom: 1px solid #000;
+}
+
+.blog img {
+	float: none;
+	margin-right: 0px;
+}
+.next-prev a {
+	width: 44.303%; /*350/790*/
+}
+
+/*------------------------SINGLE--------------------------------------*/
+.single a {
+	width: 44.303%; /*350/790*/
+}
+
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
